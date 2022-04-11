@@ -384,8 +384,8 @@
   }
 
   .table-feature {
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 13px;
+    line-height: 17px;
   }
 
   .container {
@@ -476,12 +476,13 @@
   }
 
   .table-head {
-    font-size: 14px;
+    font-size: 15.1px;
     white-space: normal;
   }
 
   .table-feature {
     font-size: 11px;
+    line-height: 15px;
   }
 
   .container {
