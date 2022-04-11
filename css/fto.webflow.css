@@ -212,6 +212,8 @@
 
 .relative {
   position: relative;
+  font-size: 14px;
+  line-height: 1.6em;
 }
 
 .tooltip-diamond {
@@ -406,6 +408,11 @@
     font-size: 13px;
   }
 
+  .relative {
+    font-size: 12.5px;
+    line-height: 1.5em;
+  }
+
   .tooltip-diamond.right {
     left: auto;
     right: 3%;
@@ -527,6 +534,7 @@
   }
 
   .relative {
+    font-size: 11px;
     white-space: normal;
   }
 
