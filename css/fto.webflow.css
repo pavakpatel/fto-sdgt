@@ -1529,6 +1529,10 @@
     display: block;
     margin-bottom: 20px;
   }
+
+  .image-8 {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
