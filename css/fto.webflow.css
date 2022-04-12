@@ -1437,7 +1437,7 @@
   }
 
   .tooltip-wrapper.right {
-    left: -119.1094px;
+    left: auto;
   }
 
   .tooltip {
@@ -1742,7 +1742,6 @@
 
   .tooltip._1 {
     width: 62px;
-    opacity: 0;
   }
 
   .fdd-buttonn-nav-icon.square {
@@ -2072,12 +2071,14 @@
   }
 
   .tooltip-dropdown {
-    width: 98%;
+    width: 50px;
     margin-right: auto;
     margin-left: auto;
   }
 
   .tooltip-wrapper {
+    left: -167%;
+    right: auto;
     width: 250px;
   }
 
