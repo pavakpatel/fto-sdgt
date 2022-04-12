@@ -297,7 +297,7 @@
 }
 
 .tooltip._1 {
-  opacity: 0;
+  opacity: 1;
 }
 
 .fdd-buttonn-nav-icon {
@@ -1440,10 +1440,6 @@
 
   .tooltip {
     opacity: 0;
-  }
-
-  .tooltip._1 {
-    opacity: 1;
   }
 
   .fdd-buttonn-nav-icon {
