@@ -41,7 +41,7 @@
 .row {
   display: -ms-grid;
   display: grid;
-  height: 180px;
+  height: 140px;
   grid-auto-flow: row;
   grid-auto-columns: 1fr;
   grid-column-gap: 0px;
@@ -106,15 +106,15 @@
   display: -ms-flexbox;
   display: flex;
   width: 232px;
-  padding: 74px 9px 9px;
+  padding: 9px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border-right: 1px none #aeaeae;
   border-bottom: 1px none #aeaeae;
   border-left: 0.5px solid #aeaeae;
@@ -122,9 +122,19 @@
 
 .entries.left {
   width: 232px;
+  padding-top: 9px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border-right: 0.5px none #aeaeae;
   border-left: 2px solid #676565;
   border-bottom-style: none;
@@ -174,7 +184,7 @@
   font-family: Lato, sans-serif;
   font-size: 18px;
   line-height: 25px;
-  text-align: left;
+  text-align: center;
 }
 
 .entries-text {
@@ -1382,6 +1392,11 @@
   display: flex;
 }
 
+.bot-row {
+  width: auto;
+  text-align: center;
+}
+
 .text-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1420,8 +1435,9 @@
 
 .entry-bot {
   display: inline;
-  width: 50%;
+  width: auto;
   font-family: Lato, sans-serif;
+  text-align: center;
   white-space: pre-line;
   -o-object-fit: fill;
   object-fit: fill;
@@ -1690,6 +1706,10 @@
     margin-bottom: 40px;
   }
 
+  .heading-para.top {
+    margin-top: 80px;
+  }
+
   .row {
     height: 220px;
     grid-auto-columns: 0.7fr;
@@ -1745,7 +1765,7 @@
   }
 
   .tooltip-dropdown {
-    width: 100px;
+    width: 121px;
   }
 
   .tooltip-wrapper.right {
@@ -1989,11 +2009,16 @@
     width: auto;
     font-size: 11px;
     line-height: 15px;
+    text-align: center;
     white-space: normal;
   }
 }
 
 @media screen and (max-width: 479px) {
+  .heading-para.top {
+    margin-top: 85px;
+  }
+
   .row {
     height: auto;
     grid-auto-flow: row;
@@ -2084,7 +2109,7 @@
   }
 
   .tooltip-dropdown {
-    width: 50px;
+    width: 70px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -2503,6 +2528,7 @@
     font-family: Lato, sans-serif;
     font-size: 3vw;
     line-height: 11px;
+    text-align: left;
     white-space: pre-line;
   }
 }
