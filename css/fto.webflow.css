@@ -2489,7 +2489,8 @@
   .entry-bot {
     font-family: Lato, sans-serif;
     font-size: 3vw;
-    line-height: 15px;
+    line-height: 11px;
+    white-space: pre-line;
   }
 }
 
