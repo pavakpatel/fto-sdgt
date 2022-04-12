@@ -1485,7 +1485,7 @@
   }
 
   .tooltip {
-    opacity: 0;
+    opacity: 1;
   }
 
   .fdd-buttonn-nav-icon {
@@ -2082,6 +2082,14 @@
 
   .entries {
     padding: 5px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -2140,21 +2148,42 @@
   }
 
   .tooltip-dropdown {
-    width: 80%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: auto;
     margin-right: auto;
     margin-left: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .tooltip-wrapper {
-    left: -167%;
+    left: -57%;
     right: auto;
     width: 250px;
   }
 
   .tooltip-wrapper.right {
     left: auto;
-    right: 36%;
+    right: 40%;
     width: 250px;
+  }
+
+  .tooltip-wrapper.right._1 {
+    right: -4%;
   }
 
   .copy-me {
@@ -2162,7 +2191,9 @@
   }
 
   .tooltip {
-    opacity: 0;
+    display: block;
+    width: 1px;
+    opacity: 1;
   }
 
   .tooltip._1 {
