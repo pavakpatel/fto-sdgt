@@ -61,9 +61,12 @@
 }
 
 .table-head {
+  margin-right: auto;
+  margin-left: auto;
   padding-right: 10px;
   padding-left: 10px;
   font-family: Lato, sans-serif;
+  color: #fff4f4;
   font-size: 18px;
   line-height: 22px;
   font-weight: 700;
@@ -199,6 +202,10 @@
   text-decoration: none;
 }
 
+.entries-text.n {
+  color: #9b241e;
+}
+
 .relative {
   position: relative;
   font-size: 13px;
@@ -309,7 +316,7 @@
   -ms-flex-pack: center;
   justify-content: center;
   background-color: transparent;
-  opacity: 0;
+  opacity: 1;
 }
 
 .tooltip.w--open {
@@ -321,7 +328,7 @@
 }
 
 .tooltip._1 {
-  opacity: 1;
+  opacity: 0;
 }
 
 .fdd-buttonn-nav-icon {
@@ -1238,6 +1245,10 @@
   color: rgba(0, 85, 140, 0.8);
   font-size: 10px;
   font-weight: 900;
+}
+
+.super-script.n {
+  color: #9b241e;
 }
 
 .notes-title {
