@@ -2039,7 +2039,7 @@
   }
 
   .row {
-    height: 200px;
+    height: 180px;
     -webkit-box-pack: stretch;
     -webkit-justify-content: stretch;
     -ms-flex-pack: stretch;
