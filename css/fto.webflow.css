@@ -2053,7 +2053,7 @@
 
 @media screen and (max-width: 479px) {
   .heading-para.top {
-    margin-top: 85px;
+    margin-top: 40px;
   }
 
   .row {
@@ -2127,7 +2127,8 @@
   }
 
   .text-center.mb-0 {
-    font-size: 15px;
+    font-size: 12px;
+    line-height: 20px;
   }
 
   .entries-text {
@@ -2140,6 +2141,11 @@
   .relative {
     font-size: 11px;
     white-space: normal;
+  }
+
+  .tooltip-diamond {
+    left: 0px;
+    right: 0px;
   }
 
   .tooltip-diamond.right {
@@ -2189,8 +2195,8 @@
   }
 
   .tooltip-wrapper {
-    left: -57%;
-    right: auto;
+    position: absolute;
+    left: auto;
     width: 250px;
   }
 
@@ -2201,7 +2207,16 @@
   }
 
   .tooltip-wrapper.right._1 {
+    top: 100%;
     right: -4%;
+  }
+
+  .tooltip-wrapper._2 {
+    left: -119px;
+  }
+
+  .tooltip-container {
+    position: relative;
   }
 
   .copy-me {
@@ -2209,8 +2224,18 @@
   }
 
   .tooltip {
-    display: block;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     width: 1px;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
     opacity: 1;
   }
 
@@ -2558,10 +2583,24 @@
     border-bottom-style: none;
   }
 
+  .title-image-wrapper {
+    width: auto;
+    height: auto;
+    min-height: 180px;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+
   .main-title {
-    margin-right: 10px;
-    margin-left: 10px;
-    font-size: 35px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .text-span-2 {
+    font-size: 25px;
   }
 
   .left-section {
@@ -2604,12 +2643,29 @@
     width: 30px;
   }
 
+  .list-item {
+    font-size: 12px;
+  }
+
+  .heading-6 {
+    font-size: 15px;
+  }
+
+  .heading-7 {
+    font-size: 13px;
+  }
+
   .entry-bot {
     font-family: Lato, sans-serif;
     font-size: 2.8vw;
     line-height: 3.5vw;
     text-align: center;
     white-space: pre-line;
+  }
+
+  .placeholder {
+    position: relative;
+    width: 10px;
   }
 }
 
