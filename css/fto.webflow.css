@@ -1152,11 +1152,11 @@
 }
 
 .title-image-wrapper {
-  width: 90%;
-  height: 300px;
+  width: 100%;
+  height: 320px;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/Untitled.png');
+  background-image: url('../images/FTO_vs_SDGT_Sketch-12.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1187,8 +1187,9 @@
 
 .text-span-2 {
   display: inline-block;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 30px;
   font-weight: 400;
 }
 
