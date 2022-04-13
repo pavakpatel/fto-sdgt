@@ -35,7 +35,8 @@
 }
 
 .heading-para.top {
-  margin-top: 0px;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .row {
@@ -87,7 +88,7 @@
 }
 
 .content-section {
-  padding-top: 20px;
+  padding-top: 0px;
   padding-bottom: 79px;
 }
 
@@ -181,11 +182,12 @@
 }
 
 .text-center.mb-0 {
-  width: 50%;
-  margin-bottom: 20px;
-  padding-top: 20px;
+  width: 47%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
   font-family: Lato, sans-serif;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 25px;
   text-align: center;
 }
@@ -1123,8 +1125,8 @@
 }
 
 .title-section {
-  height: 600px;
-  padding-top: 30px;
+  height: auto;
+  padding-top: 0px;
 }
 
 .title-container {
@@ -1133,15 +1135,16 @@
   display: -ms-flexbox;
   display: flex;
   height: 100%;
+  margin-top: 10px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -1149,10 +1152,11 @@
 }
 
 .title-image-wrapper {
-  width: 50%;
-  height: 200px;
-  margin: 43px auto auto;
-  background-image: url('../images/FTO_vs_SDGT_Sketch-removebg-preview.png');
+  width: 90%;
+  height: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url('../images/Untitled.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1163,11 +1167,16 @@
 }
 
 .main-title {
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 0px;
   font-family: urw-din, sans-serif;
   color: rgba(0, 0, 0, 0.8);
-  font-size: 42px;
+  font-size: 35px;
+  line-height: 40px;
+  font-weight: 900;
   text-align: center;
+  letter-spacing: -0.3px;
+  text-transform: uppercase;
 }
 
 .title-wrapper {
@@ -1177,6 +1186,9 @@
 }
 
 .text-span-2 {
+  display: inline-block;
+  margin-top: 8px;
+  margin-bottom: 8px;
   font-weight: 400;
 }
 
@@ -1318,6 +1330,7 @@
 }
 
 .heading-6 {
+  margin-bottom: 8px;
   font-family: Lato, sans-serif;
   font-size: 18px;
   line-height: 20px;
@@ -1470,6 +1483,10 @@
   .content-container {
     padding-right: 20px;
     padding-left: 20px;
+  }
+
+  .text-center.mb-0 {
+    width: 50%;
   }
 
   .entries-text {
@@ -1770,7 +1787,7 @@
   }
 
   .text-center.mb-0 {
-    width: 65%;
+    width: 68%;
   }
 
   .relative {
