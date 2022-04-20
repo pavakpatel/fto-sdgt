@@ -1217,7 +1217,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border-top: 1px solid #aeaeae;
+  border-top: 1px none #aeaeae;
   border-left: 1px solid #fff;
   background-color: #00558c;
   font-family: urw-din, sans-serif;
@@ -1227,7 +1227,7 @@
 
 .table-title-darkblue.left {
   width: 232px;
-  border-style: solid solid none;
+  border-style: none solid;
   border-width: 1px 1px 1px 2px;
   border-color: #aeaeae #fff #adadad #676565;
 }
